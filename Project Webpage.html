@@ -1,5 +1,4 @@
 <html>
-
 <head>
     <title> Webpage</titlE>
     <style>
@@ -7,12 +6,10 @@
             margin: 0;
             font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
         }
-
         .topnavigation {
             overflow: hidden;
             background-color: #4C9900;
         }
-
         .topnavigation a {
             float: left;
             color:ivory;
@@ -21,20 +18,19 @@
             text-decoration: none;
             font-size: 17px;
         }
-
         .topnavigation a:hover {
             background-color:darkolivegreen;
             color:greenyellow;
         }
-
         .topnavigation a.active {
             background-color:forestgreen;
             color:greenyellow;
         }
+        img{
+            padding: 90px 60px;
+         }
     </style>
-
 </head>
-
 <body>
     <div class="topnavigation">
         <a class="active" href="Project Webpage.html"> Home </a>
@@ -42,16 +38,17 @@
         <a href="Food Gallery.html">Food Gallery </a>
         <a href="Menu.html"> Menu </a>
         <a href="About us.html"> About</a>
-        
     </div>
     <center>
-       
-            <img src="Food.jpg" alt="Food" style="width:400; height:400">
-            <img src="Pasta.webp" alt="Pasta" style="width:400; height: 400">
-            <img src="Ice Cream.jpg" alt="Ice Cream" style="width:380; height:400">
-            <img src="Salad.jpg" alt="Salad" style="width:400; height: 400">
-           
+        <div class="carousel container">
+            <img class="FoodSlides" src="Food.jpg" alt="  My Food slide 1" style="width:400; height:400">
+            <img class="FoodSlides" src="Ice Cream.jpg" alt="My Food slide 2" style="width:400; height: 400">
+            <img class="FoodSlides" src="Pasta.webp" alt="My Food slide 3" style="width:380; height:400">
+            <img class="FoodSlides" src="Juice.webp" alt="My Food slide 4" style="width:400; height: 400">
+            <img class="FoodSlides" src="Fruit Salad.jpg" alt="My Food slide 4" style="width:400; height: 400">
+        </div>
+        <script src="FoodSlides.js">
+        </script>    
         </center>
 </body>
-
 </html>
